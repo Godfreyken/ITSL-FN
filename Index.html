@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITSL Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="itsl-logo.png" alt="Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">OUR SERVICES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">INSIGHTS</a></li>
+        </ul>
+        <div class="social-contact">
+          <div class="social-icons mb-2">
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="contact-info">
+            <p>1234567890<br>info@itsl.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Bootstrap Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG4.jpg" class="d-block w-100" alt="First Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><strong>EXPLORE OUR CONSULTANCY SERVICES</strong></h5>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="UP5.jpg" class="d-block w-100" alt="Second Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><strong>EXPLORE OUR INTEGRITY</strong></h5>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="UP4.jpg" class="d-block w-100" alt="Third Slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><strong>EXPLORE OUR HUMAN RESOURCE</strong></h5>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Sections -->
+  <div class="container mt-5">
+    <h2 id="section1" class="text-left mb-5">OUR SERVICES</h2>
+  </div>
+
+  <!-- Bootstrap Cards -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card card-overlay core-services">
+          <img src="IMG6.jpg" class="card-img-top" alt="Core Services">
+          <div class="card-body">
+            <div class="popup-text">
+              <p>Providing strategic consultancy services to drive business transformation and growth. Our expert team offers tailored solutions in areas such as business strategy and digital innovation. Partner with us to achieve sustainable success and stay ahead in a competitive market.</p>
+            </div>
+          </div>
+          <div class="card-description">
+            <p>Consultancy</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card card-overlay project-management">
+          <img src="IMG3.jpg" class="card-img-top" alt="Project Management">
+          <div class="card-body">
+            <div class="popup-text">
+              <p>Delivering customized project management solutions tailored to your unique needs. Our expertise ensures efficient planning, execution, and completion of projects, focusing on maximizing resources and achieving your goals. Trust us to navigate complexities and deliver successful outcomes.</p>
+            </div>
+          </div>
+          <div class="card-description">
+            <p>Project Management</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card card-overlay consultancy">
+          <img src="IMG5.jpg" class="card-img-top" alt="Consultancy">
+          <div class="card-body">
+            <div class="popup-text">
+              <p>Offering innovative IT solutions to optimize your business processes. Services like system integration, software development, and cybersecurity ensure your operations are secure and efficient. Partner with us for cutting-edge technology and expert support to drive your business forward.</p>
+            </div>
+          </div>
+          <div class="card-description">
+            <p>IT Solutions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Form -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 ITSL. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
